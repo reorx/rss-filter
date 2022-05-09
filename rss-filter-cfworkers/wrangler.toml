@@ -1,4 +1,4 @@
-name = "rss-pipe"
+name = "rss-filter"
 type = "javascript"
 zone_id = ""
 account_id = ""
