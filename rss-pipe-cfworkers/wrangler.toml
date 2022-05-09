@@ -1,0 +1,15 @@
+name = "rss-pipe"
+type = "javascript"
+zone_id = ""
+account_id = ""
+route = ""
+workers_dev = true
+compatibility_date = "2022-05-09"
+kv_namespaces = [
+  { binding = "MY_KV", id = "c52f23d65dae47abbd317a5c39c7d39b", preview_id = "f03d902e0921471bbf1aad3fe744471e" }
+]
+
+[build]
+command = "npm run build"
+[build.upload]
+format = "service-worker"
