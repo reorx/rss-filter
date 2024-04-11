@@ -9,7 +9,12 @@ TODO:
 import { Feed, Item } from 'feed'
 import Parser from 'rss-parser'
 
-// Doc: https://github.com/rbren/rss-parser
+/*
+ * Docs:
+ * https://github.com/rbren/rss-parser
+ * https://github.com/jpmonette/feed
+ */
+
 const parser = new Parser()
 
 export async function handleRequest(request: Request): Promise<Response> {

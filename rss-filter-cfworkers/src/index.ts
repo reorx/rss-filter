@@ -9,6 +9,9 @@ const urlRoutes: {[key: string]: AppHandler} = {
   '/filter': app.filter,
 }
 
+// TODO https://developers.cloudflare.com/workers/platform/sites/start-from-worker/
+// Add logic to decide whether to serve an asset or run your original Worker code
+
 addEventListener('fetch', (event) => {
   const { request } = event
   const urlp = new URL(request.url)
